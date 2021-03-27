@@ -11,7 +11,7 @@ else if (value > arr[mid])
 i = mid + 1;
 else
 break;
-if (i > j) return -1;
+if (i > j) return 0;
 }
 int cnt1 = 0, cnt2 = 0;
 while (arr[mid + cnt1] == value) {
